@@ -45,54 +45,54 @@
 
  # Метод - функция, принадлежэащяя определенному типу данных, и может быть связана вызывапна только через объект
 
-my_str = 'Hello world'
+# my_str = 'Hello world'
 
-print(my_str.lower())#
-print(my_str.upper()) #
-print(my_str.replace('#','')) #
-print(my_str.split('#')) #Делит строку по разделителю
+# print(my_str.lower())#
+# print(my_str.upper()) #
+# print(my_str.replace('#','')) #
+# print(my_str.split('#')) #Делит строку по разделителю
 
-my_str2 = '  hello world  '
+# my_str2 = '  hello world  '
 
-my_str2.title() #Hello World
+# my_str2.title() #Hello World
 
-my_str2.count("l") #3
+# my_str2.count("l") #3
 
-print(my_str2.strip()) #удаляет лимшние пробелы
+# print(my_str2.strip()) #удаляет лимшние пробелы
 
-my_str2.lstrip()
-my_str2.rstrip()
+# my_str2.lstrip()
+# my_str2.rstrip()
 
-print(my_str2.strip('!'))
+# print(my_str2.strip('!'))
 
-my_str3 = 'My new String'
+# my_str3 = 'My new String'
 
-my_str3.isalpha() #True
-my_str3.isdigit() #False
-my_str3.isalnum() #False
-my_str3.endswith('M') #False
+# my_str3.isalpha() #True
+# my_str3.isdigit() #False
+# my_str3.isalnum() #False
+# my_str3.endswith('M') #False
 
 # in
 
-my_str4 = 'Hello world'
+# my_str4 = 'Hello world'
 
-print('Hello' in my_str4)
+# print('Hello' in my_str4)
 
 # 'Hello' in my_str4 #True
 
-name = input('Name:')
-party = input('Meeting:')
+# name = input('Name:')
+# party = input('Meeting:')
 
-invite1 = 'Дорогой %s, пригшлашаем тебя на %s' % (name, party)
-print(invite1)
-invite2 = 'Дорогой {al}, приглашаем тебя на {b2}'.format(al=name, b2=party)
+# invite1 = 'Дорогой %s, пригшлашаем тебя на %s' % (name, party)
+# print(invite1)
+# invite2 = 'Дорогой {al}, приглашаем тебя на {b2}'.format(al=name, b2=party)
 
-invite3 = f'Дорогой {name}, приглашаем тебя на {party}'
-print(invite3)
+# invite3 = f'Дорогой {name}, приглашаем тебя на {party}'
+# print(invite3)
 
-'Python'
+# 'Python'
 
-print(String[4])
-print(string[::-2])
+# print(String[4])
+# print(string[::-2])
 
 #string[start:stop:step]
